@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/demo5/demo5",
+    "pages/demo1/demo1", 
+    "pages/demo2/demo2",
+    "pages/demo3/demo3",
+    "pages/demo4/demo4",
+    "pages/play/play",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "requiredBackgroundModes": [
+    "audio",
+    "location"
+  ],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示" 
+    }
+  },
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/demo1/demo1",
+        "text": "首页",
+        "iconPath": "image/首页-选中.png",
+        "selectedIconPath": "image/首页-选中 (1).png"
+      },
+      {
+        "pagePath": "pages/demo2/demo2",
+        "text": "我的",
+        "iconPath": "image/我 的.png",
+        "selectedIconPath": "image/我 的 (1).png"
+      },
+      {
+        "pagePath": "pages/demo3/demo3",
+        "text": "视频",
+        "iconPath": "image/视频 .png",
+        "selectedIconPath": "image/视频 (1).png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

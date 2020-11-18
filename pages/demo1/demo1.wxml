@@ -1,0 +1,57 @@
+<!--pages/demo1/demo1.wxml-->
+
+<view class="main">
+  <view class="top">
+    <image class="img1" src="../../image/网易云 (3).png"/>
+    <input type="text" class="input1" placeholder="搜索音乐"/>
+  </view>
+  <view class="middle">
+      <view class="middle-top">
+        <swiper autoplay="true" interval="5000" indicator-dots="true" circular="true" duration="1000">
+          <swiper-item>
+          <image class="img2" src="cloud://ygwangyiyun-3gbf1zr26fe0e6df.7967-ygwangyiyun-3gbf1zr26fe0e6df-1304222864/swiper/轮4.jpg"></image>
+          </swiper-item>
+          <swiper-item>
+          <image class="img2" src="cloud://ygwangyiyun-3gbf1zr26fe0e6df.7967-ygwangyiyun-3gbf1zr26fe0e6df-1304222864/swiper/轮3.jpg"></image>
+          </swiper-item>
+          <swiper-item>
+          <image class="img2" src="cloud://ygwangyiyun-3gbf1zr26fe0e6df.7967-ygwangyiyun-3gbf1zr26fe0e6df-1304222864/swiper/轮2.jpg"></image>
+          </swiper-item>
+          <swiper-item>
+          <image class="img2" src="cloud://ygwangyiyun-3gbf1zr26fe0e6df.7967-ygwangyiyun-3gbf1zr26fe0e6df-1304222864/swiper/轮1.jpg"></image>
+          </swiper-item>
+        </swiper>
+      </view>
+      <view>
+      <view class="middle-middle">
+         <text>推荐歌单</text>
+      </view>
+       <navigator class="b1" open-type="navigateTo" url="../demo4/demo4">排行榜</navigator>
+      </view>
+     
+      <view class="middle-bottom">
+         <view class="mm">
+           <view class="im1"><image class="bb" src="../../image/b1.jpg"/>
+            <text>立冬而至 | 听首慵懒曲，一起取暖入眠吧！</text>
+          </view>
+           <view class="im1"><image class="bb" src="../../image/b2.jpg"/>
+            <text>点一盏灯，陪你听一首歌</text>
+          </view>
+           <view class="im1"><image class="bb" src="../../image/b3.jpg"/>
+            <text>你也没有错，只是不爱我</text>
+          </view>
+         </view>
+         <view class="mm">
+           <view class="im1"><image class="bb" src="../../image/b4.jpg"/>
+            <text>耀仔547</text>
+          </view>
+           <view class="im1"><image class="bb" src="../../image/b5.jpg"/>
+            <text>欢迎来到机车世界</text>
+          </view>
+           <view class="im1"><image class="bb" src="../../image/b6.jpg"/>
+            <text>在这复杂的世界里，你是我唯一的甜</text>
+          </view>
+         </view>
+      </view>
+  </view>
+</view>

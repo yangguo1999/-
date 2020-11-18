@@ -1,0 +1,28 @@
+<!--pages/play/play.wxml-->
+<view class="main">
+    <view class="top">{{songName}}</view>
+    <view class="singer">{{singerName}}</view>
+    <view class="pic1"><image class="image1" src="{{albumpic_big}}"/></view>
+    <view class="pic2"></view>
+   <view class="bb1">
+       <view><image class="image2" src="cloud://ygwangyiyun-3gbf1zr26fe0e6df.7967-ygwangyiyun-3gbf1zr26fe0e6df-1304222864/基本图片/收 藏.png"/></view>
+       <view><image class="image2" src="cloud://ygwangyiyun-3gbf1zr26fe0e6df.7967-ygwangyiyun-3gbf1zr26fe0e6df-1304222864/基本图片/下载.png"/></view>
+       <view><image class="image2" src="cloud://ygwangyiyun-3gbf1zr26fe0e6df.7967-ygwangyiyun-3gbf1zr26fe0e6df-1304222864/基本图片/评 论.png"/></view>
+       <view><image class="image2" src="cloud://ygwangyiyun-3gbf1zr26fe0e6df.7967-ygwangyiyun-3gbf1zr26fe0e6df-1304222864/基本图片/其他.png"/></view>
+   </view>
+   <!-- <progress class="music-prog" bindtouchmove="setTouchMove" percent="{{musicPercent}}"></progress>
+   <view class="percent-num1">00:00</view>
+   <view class="percent-num2">03:00</view> -->
+   <view class=music-prog">
+		<view class="percent-num1">{{currentTime}}</view>
+		<view class="pro1">
+			<slider class="pro2" bindchange="changed1" min="0" max="{{max}}" bindchanging="changing" value="{{value}}" block-size="12" />
+		</view>
+		<view class="percent-num2">{{totalTime}}</view>
+	</view>
+   <view class="bb2">
+       <view><image bindtap="last" class="image31" src="cloud://ygwangyiyun-3gbf1zr26fe0e6df.7967-ygwangyiyun-3gbf1zr26fe0e6df-1304222864/基本图片/上一首 (1).png"/></view>
+       <view><image class="image4" bindtap="play" src="{{pic}}"/></view>
+       <view><image bindtap="next" class="image32" src="cloud://ygwangyiyun-3gbf1zr26fe0e6df.7967-ygwangyiyun-3gbf1zr26fe0e6df-1304222864/基本图片/上一首.png"/></view>
+   </view>
+</view>

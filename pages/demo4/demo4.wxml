@@ -1,0 +1,22 @@
+<!--pages/demo4/demo4.wxml-->
+<view class="main">
+  <view class="top">
+    <image src="http://p1.music.126.net/DrRIg6CrgDfVLEph9SNh7w==/18696095720518497.jpg?param=150y150"/>
+    <text class="t1" bindtap="selfPlay">云音乐飙升榜</text>
+    <text class="t2">最近更新：{{time}}（每天更新）</text>
+    <view class="b1">播放全部</view>
+    <view class="b2">收藏全部</view>
+  </view>
+  <view class="middle"><text class="t3">歌曲列表</text></view>
+  <!-- data-自定义变量属性可以在这里获得每一项遍历的一个属性(此属性必须为小写) -->
+  <view wx:for='{{songList}}' bindtap="toPlayPage" data-playid="{{index}}" data-songname="{{item.data.songname}}">
+    <view class="song">
+      <view class="ranking">{{index+1}}</view>
+      <view class="center">
+        <view class="songName">{{item.data.songname}}</view>
+        <view class="singerName">{{item.data.singer[0].name}}</view>
+      </view>
+      <view catchtap="selfPlay" class="logo" data-songname="{{item.data.songname}}" data-playid="{{index}}"><image src="{{state1 == index?pic:'cloud://ygwangyiyun-3gbf1zr26fe0e6df.7967-ygwangyiyun-3gbf1zr26fe0e6df-1304222864/基本图片/播放.png'}}"/></view>
+    </view>
+  </view>
+</view>

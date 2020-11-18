@@ -1,0 +1,101 @@
+/* pages/demo1/demo1.wxss */
+.main{
+  position: relative;
+  width: 750rpx;
+  height: 1183rpx;
+}
+.top{
+  position: absolute;
+  top: 0;
+  width: 750rpx;
+  height: 100rpx;
+  background-color:  rgb(247, 230, 233);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.img1{
+  width: 100rpx;
+  height: 100rpx;
+  position: absolute;
+  left: 10rpx;
+}
+.input1{
+  width: 450rpx;
+  height: 70rpx;
+  background-color: #FFF;
+  border-radius: 10px;
+  text-indent: 4em;
+  padding-left: 20px;
+}
+.middle{
+  position: absolute;
+  top: 100rpx;
+  width: 750rpx;
+  height: 990rpx;
+}
+.middle-top{
+  margin: 30rpx auto;
+  /* width: 540rpx;
+  height: 210rpx; */
+  width: 600rpx;
+  height: 234rpx;
+  overflow: hidden;
+  box-shadow: -6rpx 6rpx gray;
+  border-radius: 20rpx;
+}
+swiper,.img2{
+  /* width: 540rpx;
+  height: 210rpx; */
+  width: 600rpx;
+  height: 234rpx;
+}
+.middle-middle{
+  height: auto;
+  width: 400rpx;
+  text-indent: 2rem;
+  border-bottom: 2rpx solid black;
+  float: left;
+  margin-bottom: 20rpx;
+  margin-right: 80rpx;
+}
+.b1{
+  height: 40rpx;
+  width: 120rpx;
+  float: left;
+  text-align: center;
+  color: red;
+  line-height: 40rpx;
+  border-bottom: 2rpx solid red;
+}
+.middle-bottom{
+  width: 750rpx;
+  height: 500rpx;
+}
+.mm{
+  margin-top: 20rpx;
+  height: 250rpx;
+  width: 750rpx;
+  display: flex;
+  justify-content: space-around;
+  align-items:center;
+}
+.im1,.bb{
+  height: 250rpx;
+  width: 230rpx;
+  font-size: 18rpx;
+}
+.bb{
+  height: 230rpx;
+  width: 230rpx;
+}
+.bottom{
+  position: absolute;
+  bottom: 0;
+  width: 750rpx;
+  height: 100rpx;
+  background-color: rgb(247, 230, 233);
+  display: flex;
+  justify-content: space-around;
+  align-items:center;
+}
